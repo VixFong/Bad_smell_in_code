@@ -1,0 +1,11 @@
+if (userIsLoggedIn()) {
+    if (userHasAdminPrivileges()) {
+      doAdminAction();
+    } else {
+      doRegularUserAction();
+    }
+  } else {
+    showErrorForNotLoggedInUser();
+  }
+
+/* In the refactored code, the method names make it clear what each section of code is doing, so comments are not needed. */

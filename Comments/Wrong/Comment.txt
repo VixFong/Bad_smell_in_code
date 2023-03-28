@@ -1,0 +1,16 @@
+// Check if the user is logged in
+if (user != null) {
+    // Check if the user has admin privileges
+    if (user.isAdmin()) {
+      // Do something only admins can do
+      // ...
+    } else {
+      // Do something regular users can do
+      // ...
+    }
+  } else {
+    // Show error message for not logged in users
+    // ...
+  }
+
+  /* Not necessary comments */
